@@ -1,4 +1,4 @@
-# Sec-Scanner & Recon Suite 🛡️
+# Directory Fuzzer🛡️
 
 A lightweight, modular cybersecurity reconnaissance and web auditing tool written in Python. Designed and tested to run natively on mobile environments (iOS via iSH Terminal) and standard desktop systems.
 
