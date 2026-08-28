@@ -14,3 +14,17 @@ A lightweight, modular cybersecurity reconnaissance and web auditing tool writte
    ```bash
    git clone [https://github.com/sirtruth/Sec-Scanner.git](https://github.com/sirtruth/Sec-Scanner.git)
    cd Sec-Scanner
+2. **Install dependencies**:
+    pip install requests rich
+
+    **Usage 💻**
+ **Probe for hidden administrative endpoints or configuration files:**
+python3 dir_fuzzer.py [https://example.com](https://example.com)
+
+    **Requirements ⚙️**
+ *Python 3.8+*
+ ⁠*requests⁠*
+ ⁠*rich⁠*
+
+    **Disclaimer ⚠️
+This tool is created strictly for educational purposes, portfolio demonstration, and authorized security assessments. Only run scans against targets you own or have explicit written permission to test.**
