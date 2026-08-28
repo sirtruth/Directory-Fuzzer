@@ -17,11 +17,14 @@ A lightweight, modular cybersecurity reconnaissance and web auditing tool writte
 2. **Install dependencies**:
     pip install requests rich
 
-    **Usage 💻**
+   **Usage 💻**
+
  **Probe for hidden administrative endpoints or configuration files:**
+
 python3 dir_fuzzer.py [https://example.com](https://example.com)
 
     **Requirements ⚙️**
+
  *Python 3.8+*
  ⁠*requests⁠*
  ⁠*rich⁠*
