@@ -12,8 +12,8 @@ A lightweight, modular cybersecurity reconnaissance and web auditing tool writte
 
 1. **Clone the repository**:
    ```bash
-   git clone [https://github.com/sirtruth/dir-fuzzer.git](https://github.com/sirtruth/Sec-Scanner.git)
-   cd Sec-Scanner
+   git clone [https://github.com/sirtruth/dir-fuzzer.git](https://github.com/sirtruth/dir-fuzzer.git)
+   cd dir-fuzzer
 2. **Install dependencies**:
     pip install requests rich
 
