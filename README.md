@@ -1,12 +1,13 @@
-# Directory Fuzzer🛡️
 
-A lightweight, modular cybersecurity reconnaissance and web auditing tool written in Python. Designed and tested to run natively on mobile environments (iOS via iSH Terminal) and standard desktop systems.
+# Directory Fuzzer 🔍
+
+A lightweight web directory discovery tool written in Python, designed for reconnaissance and security auditing. It rapidly probes target URLs using a built-in wordlist to find hidden administrative paths, backup files, and restricted endpoints.
 
 ## Features 🚀
-* **HTTP Header Security Audit**: Scans target URLs for critical security headers (HSTS, CSP, X-Frame-Options, etc.) to evaluate browser-side hardening.
-* **SSL/TLS Certificate Inspection**: Analyzes cryptographic validity, issuer information, and expiration timelines with automated day-tracking alerts.
-* **Directory Fuzzer**: Probes target web applications against common administrative paths and hidden files using multi-threaded or iterative request filtering.
-* **Rich CLI Interface**: Utilizes the `rich` library for high-contrast, terminal-rendered status tables and indicators.
+* **Path Discovery**: Iterates through common web directories and sensitive files (e.g., admin panels, configuration files, `.git` directories).
+* **Smart HTTP Status Filtration**: Automatically filters out dead links and highlights active resources (`200 OK`, `301/302 Redirects`, and `403 Forbidden`).
+* **Rich CLI Visualization**: Leverages the `rich` library to render color-coded, clean terminal tables.)
+
 
 ## Installation & Setup 📦
 
