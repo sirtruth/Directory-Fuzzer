@@ -26,7 +26,9 @@ python3 dir_fuzzer.py [https://example.com](https://example.com)
     **Requirements ⚙️**
 
  *Python 3.8+*
+
  ⁠*requests⁠*
+
  ⁠*rich⁠*
 
     **Disclaimer ⚠️
